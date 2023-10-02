@@ -26,13 +26,13 @@ namespace FirstProject
             }
         }
 
-        public void AddBus(Bus bus, string vehicleBrand)
+        public void AddVehicle(Bus bus, string vehicleBrand)
         {
             this.VehicleBrand = vehicleBrand;
             Busses.Add(new Bus(bus.VehicleType, bus.VehicleBrand, bus.NumberOfSeats));
         }
 
-        public void PrintBusses()
+        internal void PrintVehicle()
         {
             foreach (Bus buss in Busses)
             {

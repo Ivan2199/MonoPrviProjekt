@@ -36,6 +36,7 @@ namespace FirstProject
                 {
                     for (int i = 0; i < int.Parse(numberOfVeichles); i++)
                     {
+
                         Console.WriteLine($"Car{i + 1} - Enter what car type is this car (SUV, Sedan, Hatchback, Roadster, Coupe) is: ");
                         car.CarType = Console.ReadLine();
                         Console.WriteLine($"Car{i + 1} - Enter Top Speed of your car:");
@@ -43,7 +44,7 @@ namespace FirstProject
                         Console.WriteLine($"Car{i + 1} - Enter what brand this car is(Audi, Mercedes, Hammer, Peugeot, Aston Martin): ");
                         vehicleBrand = Console.ReadLine();
 
-                        car.AddCar(car, vehicleBrand);
+                        car.AddVehicle(car, vehicleBrand);
 
                         Console.WriteLine($"\n\nEnter drive if you want for car {vehicleBrand} to start driving write 'drive' or write 'stop' to stop driving: ");
                         userCommand = Console.ReadLine();
@@ -57,7 +58,7 @@ namespace FirstProject
                         }
                         
                     }
-                    car.PrintCars();
+                    car.PrintVehicle();
                 }
   
             }
@@ -73,7 +74,7 @@ namespace FirstProject
                     Console.WriteLine($"Bus{i + 1} - Enter what brand this bus is(Mercedes-Benz, Man, Volvo, Iveco): ");
                     vehicleBrand = Console.ReadLine();
 
-                    bus.AddBus(bus, vehicleBrand);
+                    bus.AddVehicle(bus, vehicleBrand);
 
 
                     Console.WriteLine($"\n\nEnter drive if you want for bus {vehicleBrand} to start driving write 'drive' or write 'stop' to stop driving: ");
@@ -87,7 +88,7 @@ namespace FirstProject
                         bus.Stop();
                     }
                 }
-                bus.PrintBusses();
+                bus.PrintVehicle();
             }
         }
     }

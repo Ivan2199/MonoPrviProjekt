@@ -12,6 +12,15 @@ namespace FirstProject
         protected string VehicleBrand { get; set; }
 
 
+        internal virtual void AddVehicle(Car car, string vehicleBrand)
+        {
+            car.VehicleBrand = vehicleBrand;
+        }
+        internal virtual void PrintVehicle()
+        {
+            Console.WriteLine("Default list of vehicles");
+        }
+
         public virtual void Drive()
         {
             Console.WriteLine("Vehicle is driving");

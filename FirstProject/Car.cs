@@ -42,17 +42,17 @@ namespace FirstProject
             }
         }
 
-        public void AddCar(Car car, string vehicleBrand)
+        internal override void AddVehicle(Car car, string vehicleBrand)
         {
 
                 this.VehicleBrand = vehicleBrand;
                 Cars.Add(new Car(car.VehicleType, car.VehicleBrand, car.CarType, car.TopSpeed));
         }
-        public void PrintCars()
+        internal override void PrintVehicle()
         {
             foreach(Car car in Cars)
             {
-                Console.WriteLine("\nCar brand: " + VehicleBrand + "\nCar type: " +  CarType + "\nTop speed of the car: " + TopSpeed);
+                Console.WriteLine("\nCar brand: " + car.VehicleBrand + "\nCar type: " +  car.CarType + "\nTop speed of the car: " + car.TopSpeed);
             }
         }
         public override void Drive()

@@ -13,3 +13,17 @@ C:\Users\student\Desktop\FirstProject\FirstProject\obj\Debug\net7.0\refint\First
 C:\Users\student\Desktop\FirstProject\FirstProject\obj\Debug\net7.0\FirstProject.pdb
 C:\Users\student\Desktop\FirstProject\FirstProject\obj\Debug\net7.0\FirstProject.genruntimeconfig.cache
 C:\Users\student\Desktop\FirstProject\FirstProject\obj\Debug\net7.0\ref\FirstProject.dll
+C:\Users\ivana\Desktop\Mono\FirstProject\obj\Debug\net7.0\FirstProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivana\Desktop\Mono\FirstProject\obj\Debug\net7.0\FirstProject.AssemblyInfoInputs.cache
+C:\Users\ivana\Desktop\Mono\FirstProject\obj\Debug\net7.0\FirstProject.AssemblyInfo.cs
+C:\Users\ivana\Desktop\Mono\FirstProject\obj\Debug\net7.0\FirstProject.csproj.CoreCompileInputs.cache
+C:\Users\ivana\Desktop\Mono\FirstProject\obj\Debug\net7.0\FirstProject.dll
+C:\Users\ivana\Desktop\Mono\FirstProject\obj\Debug\net7.0\refint\FirstProject.dll
+C:\Users\ivana\Desktop\Mono\FirstProject\obj\Debug\net7.0\FirstProject.pdb
+C:\Users\ivana\Desktop\Mono\FirstProject\bin\Debug\net7.0\FirstProject.exe
+C:\Users\ivana\Desktop\Mono\FirstProject\bin\Debug\net7.0\FirstProject.deps.json
+C:\Users\ivana\Desktop\Mono\FirstProject\bin\Debug\net7.0\FirstProject.runtimeconfig.json
+C:\Users\ivana\Desktop\Mono\FirstProject\bin\Debug\net7.0\FirstProject.dll
+C:\Users\ivana\Desktop\Mono\FirstProject\bin\Debug\net7.0\FirstProject.pdb
+C:\Users\ivana\Desktop\Mono\FirstProject\obj\Debug\net7.0\FirstProject.genruntimeconfig.cache
+C:\Users\ivana\Desktop\Mono\FirstProject\obj\Debug\net7.0\ref\FirstProject.dll
